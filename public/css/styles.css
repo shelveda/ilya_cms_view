@@ -1,0 +1,230 @@
+.coloring {
+    background-color: yellow;
+}
+
+*{
+   box-sizing : border-box;
+
+}
+/*=============================================================
+                   genral customization
+===========================================================*/
+a{
+    float: right;
+    white-space: normal;
+}
+img {
+    max-width:100%;
+
+}
+button{
+    direction: rtl;
+}
+
+.rtl { direction: rtl;
+
+     }
+
+.dropdown{
+    max-width: 150px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    min-width: 100%;
+}
+
+i {
+    max-width: 16px;
+    max-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*=============================================================
+                    Page installation CSS
+            not usefull for CMS only for show
+            widget's base peroperties also added 
+                    -headerWidget
+                    -sidbarLeftWidget
+                    -sidebarRightWidget
+                    -sliderWidget
+                    -lastNewsWidget
+                    -footerWidget
+===========================================================*/
+
+#wrapper{
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+
+body{
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    height: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: #919191;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.headerWidget{
+    position: relative;
+    padding: 0 0;
+    border-bottom: 1px solid #b2b2b2;
+    display: block;
+    /* float: right; */
+    direction: rtl;
+    
+}
+
+.ilyaMainRow {
+    height: 450px;
+    margin-top: 10px;
+    border-bottom: 1px solid #b2b2b2;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.rightSidebarWidget {
+    height: 100%;
+    float: right;
+    border-left: 1px solid #b2b2b2;
+    /* background-color: #666; */
+
+}
+
+.mainWidget {
+   
+    height: 100%;
+    float: right;
+}
+
+.ilyaNewsRow {
+    height: 250px;
+    margin-top: 10px;
+}
+/*======================================================
+                    Header Widget 
+has two base div tag .for a header and a navbar
+change position and format when chnaging veiw to mobile
+======================================================*/
+#login {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    border-color: #fff;
+    /* width: 100px; */
+    min-width: 150px;
+    max-height: 38px;
+    
+}
+
+.ilya-btn-general {
+    /* border-color: gray; */
+    border-width: 2px;
+    border-radius:1px;
+    padding: 6px 12px 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    
+}
+
+#searchbar{
+    direction: ltr;
+    margin:0 30px 0 50px !important;
+    margin-bottom: 0 !important;
+    max-height: 38px;
+}
+
+#searchbarButton {
+    max-height: 38px;
+
+}
+
+#searchbarInput{
+    max-height: 38px;
+
+}
+
+#logo{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    margin-right: 0;
+}
+
+#logoImage {
+    max-width: 90px;
+    max-height: 38px;
+}
+
+#loginTitle{
+    float: right;
+    margin-left: 40px;
+}
+
+#loginButton {
+    min-width: 150px;
+    height: 38px;
+}
+
+#divider {
+    margin:0 10px 0 10px ;
+    font-size: 45px;
+
+}
+
+.newsItem1 {
+    position: relative;
+    
+    background-color:white;
+    padding: 5px 5px 5px 5px;
+}
+.newsItem2{
+    
+    background-color: brown;
+}
+.newsItem3 {
+    
+    background-color:white;
+}
+.newsItemText 
+{
+    width: 100%;
+    float: left;
+    bottom: 0;
+    position: absolute;
+    
+}
+p{
+    float: right;
+}
+
+.NewsItemlink {
+    width: 100%;
+}
+/*=====================================================
+                    Header
+======================================================*/
+
+
+
+/*===============================================
+                    Buttons
+===============================================*/
+
+
+
+
+
+

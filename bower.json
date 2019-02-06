@@ -1,0 +1,19 @@
+{
+  "name": "ilya_cms_view",
+  "homepage": "https://github.com/shelveda/ilya_cms_view",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "4.2.1"
+  }
+}
